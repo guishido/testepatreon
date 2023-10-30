@@ -1,8 +1,9 @@
+/* Estilos padrão para telas maiores */
 body {
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    font-size: 16px; /* Tamanho de fonte padrão para telas maiores */
 }
 
 .slider {
@@ -111,4 +112,13 @@ body {
 #radio3:checked ~ .navigation-auto .auto-btn3 {
     background-color: rgb(0, 0, 0);
 }
-  
+
+.patrionimg {
+    height: 125px;
+    margin-top: 19px;
+    margin-left: 580px;
+}
+
+.patrionimg:hover {
+    transform: scale(1.1);
+}
